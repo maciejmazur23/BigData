@@ -1,0 +1,1 @@
+hive -hivevar MAPREDUCE_OUTPUT_PATH=/tmp/source/output/mapreduce_results --hivevar DATASOURCE4_PATH=/tmp/source/input/datasource4 --hivevar RESULT_PATH=/tmp/source/output/hive_results.json -f hive_script.hql
